@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import TabelHargaBuah from './tugas11/TabelHargaBuah';
+import Timer from './tugas12/waktu';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
               <TabelHargaBuah/>
       </tbody>
       </table>
+      <Timer start={114}/>
     </div>
     
   );

@@ -41,12 +41,10 @@ class Timer extends Component{
     return(
       <>
       {this.state.time > 17 &&
-      <table>
-          <tr>
-              <td style={{textAlign : "left"}}> <h1>Sekarang Jam {this.state.date.toLocaleTimeString()}</h1></td>
-              <td style={{paddingLeft: '620px'}}> <h1>Hitung Mundur : {this.state.time}</h1></td>
-          </tr>
-      </table>
+      <div style = {{margin: "50px auto", width: "900px"}}>
+         <h1 style ={{float:"left"}}>Sekarang Jam {this.state.date.toLocaleTimeString()}</h1>
+         <h1 style ={{float:"right"}}>Hitung Mundur : {this.state.time}</h1>
+      </div>
       }
       </>
     )

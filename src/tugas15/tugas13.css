@@ -1,0 +1,85 @@
+.tabelHarga {
+    margin: 50px auto;
+    text-align: center;
+    width: 900px;
+}
+
+.tabel {
+    text-align: left;
+    font-size: 24px;
+    border: 3px solid black;
+    width: 100%;
+}
+
+.bg {
+    background-color: coral;
+}
+
+.tabel td,
+.tabel th {
+    border: 3px solid white;
+}
+
+.tabel th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #ddd;
+    color: black;
+}
+
+.btn-1{
+    background-color: rgb(5, 155, 5);
+    color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 7px;
+}
+
+.btn-2 {
+    background-color: rgb(155, 5, 5);
+    color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 7px;
+}
+
+.btn-3 {
+    background-color: rgb(54, 68, 250);
+    color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 7px;
+    margin-top: 30px;
+    margin-left: 310px;
+    margin-bottom: 10px;
+}
+
+form{
+    border: 3px solid black;
+    width: 500px;
+    display: inline-block;
+    border-radius: 8px;
+    background-color: cornsilk;
+}
+
+.input-1{
+    margin-left: 56px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.input-2 {
+    margin-left: 50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.input-3 {
+    margin-left: 56px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    height: 25px;
+}
